@@ -1,0 +1,14 @@
+if num >= 15 and num <= 20: 
+  num = num + 3
+
+elif num < 9:
+   num = num / 2
+if num > 25 and num < 30:
+  num = num / 5
+if num == 25:
+  num = num * 3
+if num == 20 or num == 25:
+  num = num * 4
+if num > 30:
+  num = num * 4
+print(float(num))
